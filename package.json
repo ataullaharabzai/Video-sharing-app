@@ -4,7 +4,7 @@
   "description": "A backend series from Hietesh Choudhary (Chai aur Code) YouTube channel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "javascript",
@@ -13,6 +13,14 @@
   "author": "Ataullah Arabzai",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.1.14",
     "prettier": "^3.10.1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.12.2"
   }
 }
